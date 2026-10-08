@@ -1,0 +1,7 @@
+/* Tailwind v4 entry point. Design tokens generated from the legacy CSS
+   analysis are appended to the @theme block; nothing else redefines them. */
+@import "tailwindcss";
+
+@theme {
+  --color-brand: oklch(0.55 0.18 264);
+}

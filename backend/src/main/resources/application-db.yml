@@ -1,0 +1,22 @@
+# Activated (SPRING_PROFILES_ACTIVE=db) once a run supplies database
+# credentials. DB_URL/DB_USER/DB_PASSWORD carry the real engagement DB's
+# host and credentials directly into this container (see
+# docs/superpowers/specs/2026-09-21-sandbox-db-connection-config-design.md
+# §5) — no db-proxy sidecar sits in front of it.
+#
+# ddl-auto=validate is deliberate: the agent may read and write data, never
+# alter the schema. A mismatch between the entities and the customer's real
+# schema fails startup loudly instead of silently corrupting data.
+spring:
+  autoconfigure:
+    exclude:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/app}
+    username: ${DB_USER:app}
+    password: ${DB_PASSWORD:}
+    hikari:
+      maximum-pool-size: 5
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false

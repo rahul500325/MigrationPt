@@ -1,0 +1,6 @@
+# Build outputs and dependency trees — never committed to the proposal branch.
+backend/target/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.log

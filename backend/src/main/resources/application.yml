@@ -1,0 +1,25 @@
+# Default profile: no database.
+#
+# A freshly claimed sandbox has no customer credentials yet, so JPA and the
+# DataSource stay auto-configured OFF. The `db` profile (application-db.yml)
+# turns them on once a run binds a database through the db-proxy.
+spring:
+  application:
+    name: app
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+      - org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      probes:
+        enabled: true
