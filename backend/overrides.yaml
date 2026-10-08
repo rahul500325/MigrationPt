@@ -1,0 +1,7 @@
+columns: {}
+tables:
+  account: Account
+  category: Category
+  order: Order
+  order_detail: OrderDetail
+  product: Product

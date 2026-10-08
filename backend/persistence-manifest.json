@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-10-08T13:16:20.389026+00:00",
+  "generated": [
+    "account",
+    "category",
+    "order",
+    "product"
+  ],
+  "dao_generated": [
+    "order_detail"
+  ],
+  "skipped": []
+}

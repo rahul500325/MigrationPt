@@ -1,0 +1,510 @@
+{
+  "generated_at": "2026-10-08T13:16:20.798566+00:00",
+  "assets": [
+    {
+      "source_path": "screenshots/cart.png",
+      "path": "frontend/public/legacy-assets/screenshots/cart.png",
+      "type": "image",
+      "bytes": 87123
+    },
+    {
+      "source_path": "screenshots/checkout.png",
+      "path": "frontend/public/legacy-assets/screenshots/checkout.png",
+      "type": "image",
+      "bytes": 61383
+    },
+    {
+      "source_path": "screenshots/home.png",
+      "path": "frontend/public/legacy-assets/screenshots/home.png",
+      "type": "image",
+      "bytes": 642516
+    },
+    {
+      "source_path": "screenshots/login.png",
+      "path": "frontend/public/legacy-assets/screenshots/login.png",
+      "type": "image",
+      "bytes": 24587
+    },
+    {
+      "source_path": "screenshots/manage_seller_products.png",
+      "path": "frontend/public/legacy-assets/screenshots/manage_seller_products.png",
+      "type": "image",
+      "bytes": 140566
+    },
+    {
+      "source_path": "screenshots/orders_history.png",
+      "path": "frontend/public/legacy-assets/screenshots/orders_history.png",
+      "type": "image",
+      "bytes": 46451
+    },
+    {
+      "source_path": "screenshots/register.png",
+      "path": "frontend/public/legacy-assets/screenshots/register.png",
+      "type": "image",
+      "bytes": 36509
+    },
+    {
+      "source_path": "screenshots/shop.png",
+      "path": "frontend/public/legacy-assets/screenshots/shop.png",
+      "type": "image",
+      "bytes": 366645
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg",
+      "type": "image",
+      "bytes": 205847
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf",
+      "type": "font",
+      "bytes": 55620
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff",
+      "type": "font",
+      "bytes": 55696
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2",
+      "type": "font",
+      "bytes": 21780
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf",
+      "type": "font",
+      "bytes": 134808
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg",
+      "type": "image",
+      "bytes": 444379
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf",
+      "type": "font",
+      "bytes": 165548
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff",
+      "type": "font",
+      "bytes": 98024
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2",
+      "type": "font",
+      "bytes": 77160
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/icomoon/fonts/icomoon.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/icomoon/fonts/icomoon.ttf",
+      "type": "font",
+      "bytes": 307168
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/icomoon/fonts/icomoon.woff",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/icomoon/fonts/icomoon.woff",
+      "type": "font",
+      "bytes": 307244
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/montserrat/Montserrat-Black.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/montserrat/Montserrat-Black.ttf",
+      "type": "font",
+      "bytes": 275192
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/montserrat/Montserrat-BlackItalic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/montserrat/Montserrat-BlackItalic.ttf",
+      "type": "font",
+      "bytes": 279380
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/montserrat/Montserrat-Bold.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/montserrat/Montserrat-Bold.ttf",
+      "type": "font",
+      "bytes": 261588
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/montserrat/Montserrat-BoldItalic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/montserrat/Montserrat-BoldItalic.ttf",
+      "type": "font",
+      "bytes": 266748
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/montserrat/Montserrat-ExtraBold.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/montserrat/Montserrat-ExtraBold.ttf",
+      "type": "font",
+      "bytes": 262108
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf",
+      "type": "font",
+      "bytes": 267004
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/montserrat/Montserrat-ExtraLight.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/montserrat/Montserrat-ExtraLight.ttf",
+      "type": "font",
+      "bytes": 259888
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/montserrat/Montserrat-ExtraLightItalic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/montserrat/Montserrat-ExtraLightItalic.ttf",
+      "type": "font",
+      "bytes": 264004
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/montserrat/Montserrat-Italic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/montserrat/Montserrat-Italic.ttf",
+      "type": "font",
+      "bytes": 266628
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/montserrat/Montserrat-Light.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/montserrat/Montserrat-Light.ttf",
+      "type": "font",
+      "bytes": 259416
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/montserrat/Montserrat-LightItalic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/montserrat/Montserrat-LightItalic.ttf",
+      "type": "font",
+      "bytes": 263712
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/montserrat/Montserrat-Medium.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/montserrat/Montserrat-Medium.ttf",
+      "type": "font",
+      "bytes": 260236
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/montserrat/Montserrat-MediumItalic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/montserrat/Montserrat-MediumItalic.ttf",
+      "type": "font",
+      "bytes": 265176
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/montserrat/Montserrat-Regular.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/montserrat/Montserrat-Regular.ttf",
+      "type": "font",
+      "bytes": 263192
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/montserrat/Montserrat-SemiBold.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/montserrat/Montserrat-SemiBold.ttf",
+      "type": "font",
+      "bytes": 260936
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/montserrat/Montserrat-SemiBoldItalic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/montserrat/Montserrat-SemiBoldItalic.ttf",
+      "type": "font",
+      "bytes": 266336
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/montserrat/Montserrat-Thin.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/montserrat/Montserrat-Thin.ttf",
+      "type": "font",
+      "bytes": 258748
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/montserrat/Montserrat-ThinItalic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/montserrat/Montserrat-ThinItalic.ttf",
+      "type": "font",
+      "bytes": 262776
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/poppins/Poppins-Black.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/poppins/Poppins-Black.ttf",
+      "type": "font",
+      "bytes": 139056
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/poppins/Poppins-BlackItalic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/poppins/Poppins-BlackItalic.ttf",
+      "type": "font",
+      "bytes": 155956
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/poppins/Poppins-Bold.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/poppins/Poppins-Bold.ttf",
+      "type": "font",
+      "bytes": 141260
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/poppins/Poppins-BoldItalic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/poppins/Poppins-BoldItalic.ttf",
+      "type": "font",
+      "bytes": 160224
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/poppins/Poppins-ExtraBold.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/poppins/Poppins-ExtraBold.ttf",
+      "type": "font",
+      "bytes": 140220
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/poppins/Poppins-ExtraBoldItalic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/poppins/Poppins-ExtraBoldItalic.ttf",
+      "type": "font",
+      "bytes": 158708
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/poppins/Poppins-ExtraLight.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/poppins/Poppins-ExtraLight.ttf",
+      "type": "font",
+      "bytes": 147952
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/poppins/Poppins-ExtraLightItalic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/poppins/Poppins-ExtraLightItalic.ttf",
+      "type": "font",
+      "bytes": 170912
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/poppins/Poppins-Italic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/poppins/Poppins-Italic.ttf",
+      "type": "font",
+      "bytes": 167140
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/poppins/Poppins-Light.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/poppins/Poppins-Light.ttf",
+      "type": "font",
+      "bytes": 146472
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/poppins/Poppins-LightItalic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/poppins/Poppins-LightItalic.ttf",
+      "type": "font",
+      "bytes": 168944
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/poppins/Poppins-Medium.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/poppins/Poppins-Medium.ttf",
+      "type": "font",
+      "bytes": 143516
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/poppins/Poppins-MediumItalic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/poppins/Poppins-MediumItalic.ttf",
+      "type": "font",
+      "bytes": 165512
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/poppins/Poppins-Regular.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/poppins/Poppins-Regular.ttf",
+      "type": "font",
+      "bytes": 145312
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/poppins/Poppins-SemiBold.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/poppins/Poppins-SemiBold.ttf",
+      "type": "font",
+      "bytes": 142148
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/poppins/Poppins-SemiBoldItalic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/poppins/Poppins-SemiBoldItalic.ttf",
+      "type": "font",
+      "bytes": 161896
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/poppins/Poppins-Thin.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/poppins/Poppins-Thin.ttf",
+      "type": "font",
+      "bytes": 148976
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/poppins/Poppins-ThinItalic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/poppins/Poppins-ThinItalic.ttf",
+      "type": "font",
+      "bytes": 172308
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/ubuntu/Ubuntu-Bold.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/ubuntu/Ubuntu-Bold.ttf",
+      "type": "font",
+      "bytes": 331612
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/ubuntu/Ubuntu-BoldItalic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/ubuntu/Ubuntu-BoldItalic.ttf",
+      "type": "font",
+      "bytes": 354956
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/ubuntu/Ubuntu-Italic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/ubuntu/Ubuntu-Italic.ttf",
+      "type": "font",
+      "bytes": 384408
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/ubuntu/Ubuntu-Light.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/ubuntu/Ubuntu-Light.ttf",
+      "type": "font",
+      "bytes": 413600
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/ubuntu/Ubuntu-LightItalic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/ubuntu/Ubuntu-LightItalic.ttf",
+      "type": "font",
+      "bytes": 407728
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/ubuntu/Ubuntu-Medium.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/ubuntu/Ubuntu-Medium.ttf",
+      "type": "font",
+      "bytes": 339360
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/ubuntu/Ubuntu-MediumItalic.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/ubuntu/Ubuntu-MediumItalic.ttf",
+      "type": "font",
+      "bytes": 365080
+    },
+    {
+      "source_path": "src/main/webapp/static/fonts/ubuntu/Ubuntu-Regular.ttf",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/fonts/ubuntu/Ubuntu-Regular.ttf",
+      "type": "font",
+      "bytes": 351884
+    },
+    {
+      "source_path": "src/main/webapp/static/images/Children.jpg",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/Children.jpg",
+      "type": "image",
+      "bytes": 142555
+    },
+    {
+      "source_path": "src/main/webapp/static/images/Men.jpg",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/Men.jpg",
+      "type": "image",
+      "bytes": 138777
+    },
+    {
+      "source_path": "src/main/webapp/static/images/Women.jpg",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/Women.jpg",
+      "type": "image",
+      "bytes": 117012
+    },
+    {
+      "source_path": "src/main/webapp/static/images/blank_avatar.png",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/blank_avatar.png",
+      "type": "image",
+      "bytes": 1956
+    },
+    {
+      "source_path": "src/main/webapp/static/images/blog_1.jpg",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/blog_1.jpg",
+      "type": "image",
+      "bytes": 87096
+    },
+    {
+      "source_path": "src/main/webapp/static/images/cloth_1.jpg",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/cloth_1.jpg",
+      "type": "image",
+      "bytes": 14948
+    },
+    {
+      "source_path": "src/main/webapp/static/images/cloth_2.jpg",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/cloth_2.jpg",
+      "type": "image",
+      "bytes": 22889
+    },
+    {
+      "source_path": "src/main/webapp/static/images/cloth_3.jpg",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/cloth_3.jpg",
+      "type": "image",
+      "bytes": 29558
+    },
+    {
+      "source_path": "src/main/webapp/static/images/hero_1.jpg",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/hero_1.jpg",
+      "type": "image",
+      "bytes": 95542
+    },
+    {
+      "source_path": "src/main/webapp/static/images/hero_1.png",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/hero_1.png",
+      "type": "image",
+      "bytes": 615354
+    },
+    {
+      "source_path": "src/main/webapp/static/images/icons/favicon.ico",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/icons/favicon.ico",
+      "type": "image",
+      "bytes": 32038
+    },
+    {
+      "source_path": "src/main/webapp/static/images/icons/icon-google.png",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/icons/icon-google.png",
+      "type": "image",
+      "bytes": 2698
+    },
+    {
+      "source_path": "src/main/webapp/static/images/icons/map-marker.png",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/icons/map-marker.png",
+      "type": "image",
+      "bytes": 2354
+    },
+    {
+      "source_path": "src/main/webapp/static/images/icons/symbol-01.png",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/icons/symbol-01.png",
+      "type": "image",
+      "bytes": 1716
+    },
+    {
+      "source_path": "src/main/webapp/static/images/logo.png",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/logo.png",
+      "type": "image",
+      "bytes": 67213
+    },
+    {
+      "source_path": "src/main/webapp/static/images/person_1.jpg",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/person_1.jpg",
+      "type": "image",
+      "bytes": 20035
+    },
+    {
+      "source_path": "src/main/webapp/static/images/person_2.jpg",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/person_2.jpg",
+      "type": "image",
+      "bytes": 36774
+    },
+    {
+      "source_path": "src/main/webapp/static/images/person_3.jpg",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/person_3.jpg",
+      "type": "image",
+      "bytes": 21812
+    },
+    {
+      "source_path": "src/main/webapp/static/images/person_4.jpg",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/person_4.jpg",
+      "type": "image",
+      "bytes": 26026
+    },
+    {
+      "source_path": "src/main/webapp/static/images/shoe.png",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/shoe.png",
+      "type": "image",
+      "bytes": 103830
+    },
+    {
+      "source_path": "src/main/webapp/static/images/shoe_1.jpg",
+      "path": "frontend/public/legacy-assets/src/main/webapp/static/images/shoe_1.jpg",
+      "type": "image",
+      "bytes": 16837
+    }
+  ],
+  "skipped": []
+}

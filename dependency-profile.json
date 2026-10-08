@@ -1,0 +1,41 @@
+{
+  "stack": "spring-react",
+  "fingerprint": "3583d795de9085de6ace9b422eb704688894eeeb5a163ad46b4cef8c61c0e958",
+  "manifests": {
+    "backend/pom.xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n  <modelVersion>4.0.0</modelVersion>\r\n\r\n  <parent>\r\n    <groupId>org.springframework.boot</groupId>\r\n    <artifactId>spring-boot-starter-parent</artifactId>\r\n    <version>3.4.1</version>\r\n    <relativePath/>\r\n  </parent>\r\n\r\n  <groupId>com.legacyshift</groupId>\r\n  <artifactId>app</artifactId>\r\n  <version>0.0.1-SNAPSHOT</version>\r\n  <name>app</name>\r\n\r\n  <properties>\r\n    <java.version>21</java.version>\r\n  </properties>\r\n\r\n  <dependencies>\r\n    <dependency>\r\n      <groupId>org.springframework.boot</groupId>\r\n      <artifactId>spring-boot-starter-web</artifactId>\r\n    </dependency>\r\n    <dependency>\r\n      <groupId>org.springframework.boot</groupId>\r\n      <artifactId>spring-boot-starter-validation</artifactId>\r\n    </dependency>\r\n    <dependency>\r\n      <groupId>org.springframework.boot</groupId>\r\n      <artifactId>spring-boot-starter-actuator</artifactId>\r\n    </dependency>\r\n    <!-- Present so the image cache is warm; auto-configuration stays off\r\n         until a run binds a database via the `db` profile. -->\r\n    <dependency>\r\n      <groupId>org.springframework.boot</groupId>\r\n      <artifactId>spring-boot-starter-data-jpa</artifactId>\r\n    </dependency>\r\n    <dependency>\r\n      <groupId>org.springframework.boot</groupId>\r\n      <artifactId>spring-boot-starter-security</artifactId>\r\n    </dependency>\r\n    <dependency>\r\n      <groupId>org.springdoc</groupId>\r\n      <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>\r\n      <version>2.7.0</version>\r\n    </dependency>\r\n    <!-- Both drivers ship together: the target dialect isn't known until an\r\n         engagement's DB is configured at claim time, and Spring Boot only\r\n         wires whichever one matches the datasource URL's scheme. -->\r\n    <dependency>\r\n      <groupId>org.postgresql</groupId>\r\n      <artifactId>postgresql</artifactId>\r\n      <scope>runtime</scope>\r\n    </dependency>\r\n    <dependency>\r\n      <groupId>com.mysql</groupId>\r\n      <artifactId>mysql-connector-j</artifactId>\r\n      <scope>runtime</scope>\r\n    </dependency>\r\n    <dependency>\r\n      <groupId>org.springframework.boot</groupId>\r\n      <artifactId>spring-boot-starter-test</artifactId>\r\n      <scope>test</scope>\r\n    </dependency>\r\n  </dependencies>\r\n\r\n  <build>\r\n    <plugins>\r\n      <plugin>\r\n        <groupId>org.springframework.boot</groupId>\r\n        <artifactId>spring-boot-maven-plugin</artifactId>\r\n      </plugin>\r\n    </plugins>\r\n  </build>\r\n</project>\r\n",
+    "frontend/package.json": "{\n  \"name\": \"app-frontend\",\n  \"private\": true,\n  \"version\": \"0.0.1\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"tsc -b && vite build\",\n    \"preview\": \"vite preview\",\n    \"typecheck\": \"tsc --noEmit\",\n    \"test\": \"vitest run\"\n  },\n  \"dependencies\": {\n    \"@radix-ui/react-dialog\": \"1.1.4\",\n    \"@radix-ui/react-label\": \"2.1.1\",\n    \"@radix-ui/react-slot\": \"1.1.1\",\n    \"@tailwindcss/vite\": \"4.3.3\",\n    \"@tanstack/react-query\": \"5.62.11\",\n    \"class-variance-authority\": \"0.7.1\",\n    \"clsx\": \"2.1.1\",\n    \"lucide-react\": \"0.469.0\",\n    \"react\": \"19.0.0\",\n    \"react-dom\": \"19.0.0\",\n    \"react-router\": \"7.1.1\",\n    \"tailwind-merge\": \"3.0.2\",\n    \"tailwindcss\": \"4.3.3\",\n    \"tw-animate-css\": \"1.2.5\",\n    \"zod\": \"3.24.1\"\n  },\n  \"devDependencies\": {\n    \"@testing-library/jest-dom\": \"6.6.3\",\n    \"@testing-library/react\": \"16.1.0\",\n    \"@types/node\": \"22.20.5\",\n    \"@types/react\": \"19.0.2\",\n    \"@types/react-dom\": \"19.0.2\",\n    \"@vitejs/plugin-react\": \"4.3.4\",\n    \"jsdom\": \"25.0.1\",\n    \"typescript\": \"5.7.2\",\n    \"vite\": \"6.0.5\",\n    \"vitest\": \"3.2.7\"\n  }\n}\n",
+    "frontend/pnpm-lock.yaml": {
+      "sha256": "97f790aab4781c98a1dd3f6a82442f85c45898186dc524e6687c031ca11214f6"
+    }
+  },
+  "verification": [
+    {
+      "name": "install-frontend-dependencies",
+      "ok": true
+    },
+    {
+      "name": "resolve-backend-dependencies",
+      "ok": true
+    },
+    {
+      "name": "resolve-backend-test-providers",
+      "ok": true
+    },
+    {
+      "name": "backend",
+      "ok": true
+    },
+    {
+      "name": "frontend",
+      "ok": true
+    },
+    {
+      "name": "backend",
+      "ok": true
+    },
+    {
+      "name": "frontend",
+      "ok": true
+    }
+  ]
+}
