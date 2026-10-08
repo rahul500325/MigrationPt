@@ -2,43 +2,23 @@ import { render, screen } from "@testing-library/react";
 import { createMemoryRouter, RouterProvider } from "react-router";
 import { describe, expect, it } from "vitest";
 
-import { App } from "./App";
-import { HomePage, LoginPage, RegisterPage, ShopPage } from "./pages";
+import { appRoutes } from "./routes";
 
-describe("App", () => {
-  it("renders its nested route content", () => {
-    // Arrange
-    const router = createMemoryRouter(
-      [
-        {
-          Component: App,
-          children: [{ index: true, Component: () => <p>Nested route content</p> }],
-        },
-      ],
-      { initialEntries: ["/"] },
-    );
-
-    // Act
-    render(<RouterProvider router={router} />);
-
-    // Assert
-    expect(screen.getByText("Nested route content")).toBeInTheDocument();
-  });
-});
-
-describe("page shells", () => {
+describe("application routes", () => {
   it.each([
-    ["HomePage", HomePage],
-    ["LoginPage", LoginPage],
-    ["RegisterPage", RegisterPage],
-    ["ShopPage", ShopPage],
-  ])("renders %s without page content", (_name, Page) => {
+    ["/", "home"],
+    ["/login", "login"],
+    ["/register", "register"],
+    ["/shop", "shop"],
+  ])("renders the %s blank shell within the root layout at %s", (path, shellName) => {
     // Arrange
+    const router = createMemoryRouter(appRoutes, { initialEntries: [path] });
 
     // Act
-    const { container } = render(<Page />);
+    const { container } = render(<RouterProvider router={router} />);
 
     // Assert
     expect(container).toBeEmptyDOMElement();
+    expect(screen.queryByText(/no route matches url/i)).not.toBeInTheDocument();
   });
 });
